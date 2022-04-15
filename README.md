@@ -21,13 +21,16 @@ The final result can be viewed on the live webapp [here](https://nftcvcalculator
 ---
 ## 1. Business Problem
 
-The purpose of this project is to calculate the collateral value of an NFT from transaction data. An NFT is essentially a means to prove ownsership of a digital asset. And a digital asset, like any other asset, can be used as collateral to borrow money against. But how do we determine the collateral value of a volatile asset? Here's a formula that calculates the collateral's floor price:
+An NFT is essentially a means to prove ownsership of a digital asset. A digital asset, like any other asset, can be used as collateral to borrow money against. But how do we determine the collateral value of a volatile asset? The purpose of this project is to create an automatic collateral value calculator from NFT transaction data. 
 
-<img  src="https://github.com/s-mushnoori/">
+Here's a formula that calculates the collateral's floor price:
+
+<img  src="https://github.com/s-mushnoori/nft-collateral-value/blob/main/Images/cv_formula.jpg" width=600>
 
 ---
 ## 2. Data
 
+The data for this project is sourced from two different sources. The first source was obtained from the Metastreet Labs page
 
 ---
 ## 3. Data Processing
