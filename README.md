@@ -121,16 +121,16 @@ The code for the plotly dashboard can be found in the file `app.py`. The Heroku 
 
 1. &nbsp; This project only used the Eth price to calculate the collateral floor price because 3 out of the 4 datasets did not contain USD transaction data. 
  
-    1.1. &nbsp;&nbsp; This can be worked around by averaging the daily Eth Price from the first dataset and imputing it to the other 3. Though not perfect, this could give a very close approximation to having the actual transaction data in USD.
+    - &nbsp;&nbsp; This can be worked around by averaging the daily Eth Price from the first dataset and imputing it to the other 3. Though not perfect, this could give a very close approximation to having the actual transaction data in USD.
 
 2. &nbsp; It is always a good idea to refactor and generalize the code from the notebooks to a .py file. 
 
-    2.1. &nbsp;&nbsp; The next step would be to generalize the code, so adding a new dataset would only require adding one line of code to a list of relevant datasets.
+    - &nbsp;&nbsp; The next step would be to generalize the code, so adding a new dataset would only require adding one line of code to a list of relevant datasets.
 
 3. &nbsp; An interesting feature to add to the dashboard would be to compare the collateral floor prices for different projects. 
 
-    3.1. &nbsp;&nbsp; This could enable us to discover how different projects perform relative to each other during changing market conditions, and would be very useful information to consider before investing in a project. 
+    - &nbsp;&nbsp; This could enable us to discover how different projects perform relative to each other during changing market conditions, and would be very useful information to consider before investing in a project. 
 
 4. &nbsp; Another useful quality-of-life feature to add to the dashboard would be to freeze dates outside of the date ranges for each project.
 
-    4.1. &nbsp;&nbsp; The four datasets each have data available for different date ranges. Currently the dashboard works under the assumption that the user inputs a date in the correct range for each project. It would be useful to dynamically modify the available dates based on the user chosen project. 
+    - &nbsp;&nbsp; The four datasets each have data available for different date ranges. Currently the dashboard works under the assumption that the user inputs a date in the correct range for each project. It would be useful to dynamically modify the available dates based on the user chosen project. 
